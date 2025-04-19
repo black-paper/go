@@ -25,5 +25,5 @@ func New(x, y int) *Vertex {
 
 func main() {
 	v := New(3, 4)
-	fmt.Println(Area(v))
+	fmt.Println(Area(*v))
 }
